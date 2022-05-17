@@ -2,24 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container-small{
     margin: 0 auto;
-    width: 70%;
-    padding-top: 50px;
+    width: 50%;
+    padding-top: 100px;
 }
 
 .container-big{
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 .flex{
     display: flex;
 }
 
+.pad-align{
+    padding: 10px;
+}
+
 /* header */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
     height: 70px;
     align-items: center;
     padding: 5px;
@@ -41,83 +52,165 @@ li a{
     color: black;
 }
 
-div>img{
-    vertical-align: middle;
-    padding: 10px;
-}
-
-#login{
+.button{
     padding: 5px 10px;
     background-color: rgb(0, 97, 255);
     color: white;
+    text-decoration: none;
 }
 /* header */
 
 /* section work */
 .work{
+    margin-top: 70px;
     padding-top: 50px;
-    height: 500px;
     background-color: #b4d0e7;
 }
 
-.top-part{
-    height: 100px;
-    background-color: cadetblue;
-    width: 100%;
+h1{
+    font-size: 80px;
 }
 
 .sx-part{
-    height: 300px;
-    background-color: chocolate;
     width: 30%;
+    margin-top: 60px;
+}
+
+.sx-part>p{
+    margin-bottom: 30px;
+}
+
+.sx-part>a.button{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cancel-subscription{
+    margin: 50px 0px;
+}
+
+.cancel-subscription>a{
+    text-decoration: none;
+    color: black;
+}
+
+#arrow{
+    font-size: 50px;
 }
 
 .dx-part{
-    height: 300px;
-    background-color: cornflowerblue;
     width: 70%
+}
+
+#jumbotron{
+    width: 100%;
+    position: relative;
+    top: 60px;
 }
 /* section-work */
 
 /* section plan-business */
 
 .top-part-business{
-    height: 100px;
-    background-color: cadetblue;
     width: 100%;
+}
+
+.top-part-business>h2{
+    font-size: 40px;
+}
+
+.selected{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid blue;
+    margin-top: 30px;
+    vertical-align: bottom;
+}
+
+.deselected{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid lightgray;
+    margin-left: 30px;
+    vertical-align: bottom;
 }
 
 .container-business.flex{
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .professional{
     width: calc( 100% / 3 - 30px);
-    height: 200px;
-    background-color: aqua;
-    border: 2px solid black;
+    border: 2px solid lightgray;
+}
+
+.single{
+    text-align: center;
+    padding: 10px;
+    border-bottom:  2px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.btn-professional{
+    padding: 10px 30px;
+}
+
+.btn-professional-contact{
+    padding: 10px 90px;
+}
+
+.buy-content{
+    padding: 30px 10px;
+}
+
+.buy-now{
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.line{
+    width: 20%;
+    border-bottom: 2px solid #0c0b0b;
+    margin: 20px 10px;
+}
+
+.fa-solid.fa-check.blue-check{
+    color: blue;
 }
 
 .advanced{
     width: calc( 100% / 3 - 30px);
-    height: 200px;
-    background-color: #8bc34a;
-    border: 2px solid black;
+    border: 2px solid lightgray;
 }
 
 .enterprise{
     width: calc( 100% / 3 - 30px);
-    height: 200px;
-    background-color: #9c27b0;
-    border: 2px solid black;
+    border: 2px solid lightgray;
 }
 
 .bottom-business{
+    position: relative;
     margin-top: 20px;
     width: 100%;
-    height: 100px;
-    background-color: darkblue;
-    border: 2px solid red;
+    border: 2px solid lightgray;
+}
+
+.text-bottom-business{
+    padding: 50px 10px;
+}
+
+.btn-professional-sells{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px 20px;
 }
 /* section plan-business */
 
