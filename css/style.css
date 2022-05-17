@@ -95,24 +95,29 @@ div>img{
     width: calc( 100% / 3 - 30px);
     height: 200px;
     background-color: aqua;
+    border: 2px solid black;
 }
 
 .advanced{
     width: calc( 100% / 3 - 30px);
     height: 200px;
     background-color: #8bc34a;
+    border: 2px solid black;
 }
 
 .enterprise{
     width: calc( 100% / 3 - 30px);
     height: 200px;
     background-color: #9c27b0;
+    border: 2px solid black;
 }
 
 .bottom-business{
+    margin-top: 20px;
     width: 100%;
     height: 100px;
     background-color: darkblue;
+    border: 2px solid red;
 }
 /* section plan-business */
 
@@ -141,4 +146,162 @@ div>img{
     width: 100%;
     height: 200px;
     background-color: darkseagreen;
+}
+/* section users */
+
+/* section sponsor */
+.sponsor.flex{
+    padding-top: 50px;
+}
+
+.sponsor-sx.flex{
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.designit{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: darkkhaki;
+}
+
+.asu{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: #8bc34a;
+}
+
+.uf{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: #9c27b0;
+}
+
+.tepps{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: aqua;
+}
+
+.text{
+    width: 40%;
+    height: 300px;
+}
+
+.sponsor-dx.flex{
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.world-bicycle-relief{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: darkkhaki;
+}
+
+.hearst{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: #8bc34a;
+}
+
+.lonely-planet{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: #9c27b0;
+}
+
+.clear-channel{
+    width: calc(100% / 2);
+    height: 300px;
+    background-color: aqua;  
+}
+/* section sponsor */
+
+/* section-free-trial */
+.free-trial{
+    background-color: #b4d0e7;
+
+}
+
+.bring-dropbox{
+    width: 60%;
+    height: 300px;
+    background-color: darkgreen;
+}
+
+.free{
+    width: 40%;
+    height: 300px;
+    background-color: darkcyan;
+}
+/* section-free-trial */
+
+/* section-faq */
+.up-content{
+    padding: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
+
+.question{
+    width: 100%;
+    height: 100px;
+    background-color: #8bc34a;
+}
+
+.faq{
+    width: 100%;
+    height: 100px;
+    background-color: #9c27b0;
+}
+
+.question-last{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+/* section-faq */
+
+/* footer */
+footer{
+    margin-top: 50px;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+
+footer>.container-small.flex{
+    justify-content: space-between;
+}
+
+.dropbox-footer{
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.product-footer{
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.company-footer{
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.support-footer{
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.community-footer{
+    width: calc(100% / 5 - 50px);
+    height: 200px;
+    background-color: cadetblue;
 }
