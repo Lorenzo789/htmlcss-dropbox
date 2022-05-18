@@ -23,6 +23,14 @@
     padding: 10px;
 }
 
+.margin-align{
+    margin: 30px 0px;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
 /* header */
 header{
     position: fixed;
@@ -278,33 +286,57 @@ h1{
     width: 30%;
 }
 
+.invert-img{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
 .designit{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: darkkhaki;
+    position: relative;
+    background-color: #a2d39b;
 }
 
 .asu{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: #8bc34a;
+    position: relative;
+    background-color: #61082b;
 }
 
 .uf{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: #9c27b0;
+    position: relative;
+    background-color: #0093ce;
 }
 
 .tepps{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: aqua;
+    position: relative;
+    background-color: #ff1c1c;
 }
 
 .text{
+    background-color: #f5f5f5;
+    padding: 50px;
     width: 40%;
-    height: 300px;
+}
+
+.text>img{
+    width: 50%;
+}
+
+.sponsor-line{
+    width: 20%;
+    border-bottom: 1px solid gray;
+    margin: 40px 0px;
 }
 
 .sponsor-dx.flex{
@@ -313,46 +345,63 @@ h1{
 }
 
 .world-bicycle-relief{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: darkkhaki;
+    position: relative;
+    background-color: #d5001f;
 }
 
 .hearst{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: #8bc34a;
+    position: relative;
+    background-color: #b4d0e7;
 }
 
 .lonely-planet{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: #9c27b0;
+    position: relative;
+    background-color: #0d2481;
 }
 
 .clear-channel{
+    height: 15vw;
     width: calc(100% / 2);
-    height: 300px;
-    background-color: aqua;  
+    position: relative;
+    background-color: #ffd830;  
 }
 /* section sponsor */
 
 /* section-free-trial */
 .free-trial{
     background-color: #b4d0e7;
+    padding: 100px;
+}
 
+.free-trial>div.container-small.flex{
+    padding-top: 0px;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .bring-dropbox{
     width: 60%;
-    height: 300px;
-    background-color: darkgreen;
+}
+
+.bring-dropbox>h2{
+    color: #61082b;
 }
 
 .free{
     width: 40%;
-    height: 300px;
-    background-color: darkcyan;
+    text-align: end;
+}
+
+.btn-free-trial{
+    padding: 10px 50px;
+    background-color: white;
+    color: black;
 }
 /* section-free-trial */
 
@@ -360,28 +409,38 @@ h1{
 .up-content{
     padding: 50px;
     width: 100%;
-    height: 400px;
-    background-color: blue;
+}
+
+.up-content>h2{
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
 }
 
 .question{
     width: 100%;
-    height: 100px;
-    background-color: #8bc34a;
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
+}
+
+.arrow-faq{
+    margin-left: 20%;
 }
 
 .faq{
     width: 100%;
-    height: 100px;
-    background-color: #9c27b0;
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
 }
 
 .question-last{
     width: 100%;
-    height: 100px;
-    background-color: aqua;
+    padding: 50px 0px;
+    border-bottom: 1px solid black;
 }
 /* section-faq */
+
+
+
 
 /* footer */
 footer{
