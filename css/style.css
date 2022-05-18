@@ -448,38 +448,50 @@ footer{
     background-color: black;
     height: 600px;
     width: 100%;
+    color: white;
 }
 
-footer>.container-small.flex{
+footer>.container-big.flex{
     justify-content: space-between;
+    padding-top: 100px;
 }
 
 .dropbox-footer{
-    width: calc(100% / 5 - 50px);
-    height: 200px;
-    background-color: cadetblue;
+    width: calc(100% / 5 - 30px);
+}
+
+.text-medium{
+    font-size: 25px;
+}
+
+.footer-list>li{
+    display: list-item;
 }
 
 .product-footer{
-    width: calc(100% / 5 - 50px);
-    height: 200px;
-    background-color: cadetblue;
+    width: calc(100% / 5 - 30px);
 }
 
 .company-footer{
-    width: calc(100% / 5 - 50px);
-    height: 200px;
-    background-color: cadetblue;
+    width: calc(100% / 5 - 30px);
 }
 
 .support-footer{
-    width: calc(100% / 5 - 50px);
-    height: 200px;
-    background-color: cadetblue;
+    width: calc(100% / 5 - 30px);
 }
 
 .community-footer{
-    width: calc(100% / 5 - 50px);
-    height: 200px;
-    background-color: cadetblue;
+    width: calc(100% / 5 - 30px);
+}
+
+.footer-line{
+    border-bottom: 1px solid gray;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.text-footer{
+    display: inline-block;
+    padding-top: 50px;
+    color: gray;
 }
